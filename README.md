@@ -1,6 +1,6 @@
 # VALORANT Lore & Agent Select Clone
 
-A simple Valorant Lore site that tells the different story of every agents.
+A simple Valorant Lore site that tells the different story of every agents. (NOT YET RESPONSIVE)
 
 ## 🚀 Live Demo
 You can view the live project here: [https://student-it-web.github.io/valorant_lore/src/]
