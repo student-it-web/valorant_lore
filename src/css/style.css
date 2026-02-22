@@ -158,9 +158,9 @@ ul {
 }
 
 .riot-logo {
-  height: 100px;
+  height: 120px;
   width: auto;
-  cursor: pointer;
+  object-fit: contain;
 }
 
 .valorant-logo {
@@ -492,7 +492,6 @@ ul {
   align-items: center;
   justify-content: center;
   position: relative;
-  text-align: center;
 }
 
 .credit-text {
@@ -500,6 +499,9 @@ ul {
   flex-direction: column;
   opacity: 50%;
   margin-bottom: 5rem;
+  text-align: center;
+  justify-self: center;
+  align-self: center;
 }
 
 .white-body {
