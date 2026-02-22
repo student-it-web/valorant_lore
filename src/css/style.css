@@ -1,4 +1,5 @@
 @import "tailwindcss";
+@import url(./components/hamburger.css);
 @import url(https://db.onlinewebfonts.com/c/e695a2b548e145591a266fc50eb492e0?family=Regular);
 
 :root {
@@ -17,6 +18,10 @@ body {
   overflow-x: hidden; /* Prevents the horizontal "wiggle" */
   height: auto;
   font-size: 125%;
+}
+
+.nav-mobile {
+  display: none;
 }
 
 .navy {
@@ -129,7 +134,7 @@ ul {
   font-size: 1.6rem;
 }
 
-.nav-bar {
+.nav-pc {
   background-color: #111111;
   width: 100%;
   height: 80px;
@@ -468,6 +473,7 @@ ul {
 .footer-section p {
   width: 40rem;
   font-size: 18px;
+  text-align: center;
 }
 
 .credit-container {
@@ -486,12 +492,12 @@ ul {
   align-items: center;
   justify-content: center;
   position: relative;
+  text-align: center;
 }
 
 .credit-text {
   display: flex;
   flex-direction: column;
-  align-items: center;
   opacity: 50%;
   margin-bottom: 5rem;
 }
@@ -665,7 +671,7 @@ ul {
 
 .agents-card img:hover {
   transform: scale(1.1);
-  filter: grayscale(0%); 
+  filter: grayscale(0%);
 }
 
 .agents-name {
@@ -746,7 +752,8 @@ ul {
   .about-section video,
   .maps-section img,
   .clips-container,
-  .map-image {
+  .map-image,
+  .nav-pc {
     display: none !important;
   }
 
